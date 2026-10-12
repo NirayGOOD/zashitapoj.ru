@@ -28,8 +28,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.yandex.ru';
         $mail->SMTPAuth = true;
-        $mail->Username = 'mas@eternis.ru';
-        $mail->Password = 'zznrjcyliebzawlc';
+        $mail->Username = 'Почта';
+        $mail->Password = 'Пароль';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
         $mail->CharSet = 'UTF-8';
